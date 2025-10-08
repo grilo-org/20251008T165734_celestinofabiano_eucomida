@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="EuComidaApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="SPRING_DATASOURCE_URL" value="jdbc:postgresql://35.193.166.206:5432/eucomida" />
+    </envs>
+    <option name="envFilePaths">
+      <option value="$PROJECT_DIR$/.env" />
+    </option>
+    <option name="MAIN_CLASS_NAME" value="com.geosapiens.eucomida.EuComidaApplication" />
+    <module name="eucomida" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="com.geosapiens.eucomida.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

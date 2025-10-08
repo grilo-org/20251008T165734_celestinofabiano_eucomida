@@ -1,0 +1,9 @@
+server:
+  port: 8098
+
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:16://localhost/testdb
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    username: testuser
+    password: testpass
